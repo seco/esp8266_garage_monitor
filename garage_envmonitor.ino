@@ -30,8 +30,8 @@
 #define DHTPWR D8       // DHT power pin.  Allows sketch to reset power if DHT hangs.
 
 // Setup I2C bus
-const int sclPin = D6;
-const int sdaPin = D7;
+const int sclPin = D7;
+const int sdaPin = D6;
 
 // Declare pin numbers:
 const int doorSwitchPin = D1;   // Pin number of the Reed Switch
